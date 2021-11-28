@@ -32,10 +32,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  background: #000;
 }
-
+header{
+  background: #000;
+}
 .logo {
   font-size: 1.25rem;
+  cursor: context-menu;
 }
 
 /* main */
@@ -44,6 +48,7 @@ nav {
   min-height: 90vh;
   display: grid;
   grid-template-columns: 5% 1fr 1fr 1fr 5%;
+  background: #000;
 }
 
 .chef,
@@ -54,6 +59,7 @@ nav {
   width: 100%;
   opacity: 0;
   pointer-events: none;
+  background: #000;
 }
 
 .hero {
@@ -163,6 +169,7 @@ nav {
   align-items: center;
   text-align: center;
   transform: translateY(-101%);
+  cursor: context-menu;
 }
 
 .contact {
